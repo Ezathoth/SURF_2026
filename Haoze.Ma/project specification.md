@@ -399,8 +399,9 @@ docker compose up --build
 
 1. **补 API**(§6.2):multi-source / cell-lines / drugs / trials / vulnerabilities / alterations 六路 REST endpoint
 2. **前端多源仪表盘**:每个 biomarker 详情页展示 6 源 xref 分布(桑基图或雷达图)
-3. **文献抽取启用**:`ingest/extract.py` + LiteratureSearch,批次入 evidence 表
-4. **cases / specimens 填数**:通过 GDC clinical + cBioPortal patient-level API
+3. **文献抽取启用**:大语言模型 + LiteratureSearch,批次入 evidence 表（自己做一个skill）
+4. **cases / specimens 填数**:通过 GDC clinical + cBioPortal patient-level API，还有相关研究论文
+5. **新biomarker**：通过泛癌分析、WGCNA等研究论文中提取有潜力的生物标志物
 
 ### Phase 4
 
