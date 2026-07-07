@@ -395,14 +395,14 @@ docker compose up --build
 
 ## 11. 后续路线图
 
-### Phase 3(建议)
+### Phase 3
 
 1. **补 API**(§6.2):multi-source / cell-lines / drugs / trials / vulnerabilities / alterations 六路 REST endpoint
 2. **前端多源仪表盘**:每个 biomarker 详情页展示 6 源 xref 分布(桑基图或雷达图)
 3. **文献抽取启用**:`ingest/extract.py` + LiteratureSearch,批次入 evidence 表
 4. **cases / specimens 填数**:通过 GDC clinical + cBioPortal patient-level API
 
-### Phase 4(建议)
+### Phase 4
 
 1. **液体活检模块**:ctDNA / miRNA / 血清蛋白面板(schema 已留)
 2. **影像组学 / 数字病理**:CT 形态学 + 组织学亚型特征
@@ -411,17 +411,3 @@ docker compose up --build
 5. **中国站点标注**:CDE / ChiCTR 与 CT.gov 合并,支持"含中国 site 的试验"过滤
 
 ---
-
-## 12. 参考文献
-
-[1] Yang H, et al. NF2 and canonical Hippo–YAP pathway define distinct tumor subsets characterized by different immune deficiency and treatment implications in human pleural mesothelioma. *Cancers* 2021. DOI: [10.3390/cancers13071561](https://doi.org/10.3390/cancers13071561)
-
-[2] Calvet L, et al. YAP1 is essential for malignant mesothelioma tumor maintenance. *BMC Cancer* 2022. DOI: [10.1186/s12885-022-09686-y](https://doi.org/10.1186/s12885-022-09686-y)
-
----
-
-**文件位置**
-- 项目根:`mpm_biomarker_db/`
-- 交付 DB:`mpm_biomarker_db/mpm_biomarker_db.sqlite`(1.3 MB)
-- 数据报告:`mpm_biomarker_db/reports/phase2_v2_ingest_report.md`
-- 本规范书:`mpm_biomarker_db/reports/project_specification.md`
