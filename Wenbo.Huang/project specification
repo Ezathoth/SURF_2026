@@ -1,0 +1,60 @@
+P14 Project Specification
+Automated Biomarker Discovery and Annotation for MPM via Literature Mining
+________________________________________
+1. Project Overview
+Develop an automated NLP-based pipeline to extract, annotate, and curate MPM (Malignant Pleural Mesothelioma) biomarkers from biomedical literature, enabling systematic and continuously updatable biomarker discovery.
+________________________________________
+2. Objectives
+•	Automatically retrieve MPM-related literature from PubMed
+•	Identify biomarker entities using Named Entity Recognition (NER)
+•	Extract biomarker-disease relationships via relation extraction
+•	Build a structured, annotated biomarker database
+•	Cross-validate findings against existing databases
+________________________________________
+3. Tech Stack
+Module	Tools/Frameworks
+Literature Retrieval	PubMed API (Entrez/Biopython)
+NER Model	BioBERT / scispaCy
+Relation Extraction	Rule-based + BioBERT RE
+Data Storage	SQLite / MongoDB
+Visualization	Streamlit (optional)
+________________________________________
+4. System Pipeline
+PubMed Query
+    ↓
+Abstract / Full-text Retrieval
+    ↓
+NER (genes, proteins, biomarker entities)
+    ↓
+Relation Extraction (biomarker → diagnosis / prognosis / treatment)
+    ↓
+Cross-validation (against UniProt, MeSH, existing MPM databases)
+    ↓
+Structured Storage + Query Interface
+________________________________________
+5. Deliverables
+•	✅ Automated literature retrieval script
+•	✅ NER annotation module
+•	✅ Relation extraction module
+•	✅ Structured biomarker database (attributes: type, function, validation status)
+•	✅ Simple query/search interface
+________________________________________
+6. Timeline (8 Weeks)
+Week	Task
+Week 1–2	Literature retrieval & data collection
+Week 3–4	NER model fine-tuning & testing
+Week 5–6	Relation extraction & cross-validation
+Week 7	Database construction & population
+Week 8	System testing & report writing
+________________________________________
+7. Evaluation Metrics
+Metric	Description
+Precision / Recall / F1	NER and relation extraction performance
+Coverage Rate	Overlap with known databases (UniProt, MeSH)
+Update Efficiency	Time cost for incremental literature updates
+________________________________________
+8. Expected Outcomes
+•	A curated, searchable MPM biomarker database
+•	Reproducible NLP pipeline adaptable to other cancer types
+•	Foundation for integration into larger MPM molecular marker platforms (P13–P18)
+________________________________________
