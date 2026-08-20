@@ -1,0 +1,51 @@
+﻿Original_Name,Standard_Name,Gene_ID,Synonyms,Organism,Normalization_Status,Remark
+BRCA1 associated deubiquitinase 1,BAP1,8314,UBM2; UVM2; KURIS; TPDS1; UCHL2; hucep-6; HUCEP-13,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+"NF2, moesin-ezrin-radixin like (MERLIN) tumor suppressor",NF2,4771,ACN; SCH; BANF; SWNV; merlin-1,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+cyclin dependent kinase inhibitor 2A,CDKN2A,1029,ARF; CDK4I; CMM2; INK4A; MLM; MTS1; P14; P16; TP16,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+tumor protein p53,TP53,7157,BCC7; LFS1; P53; TRP53,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+"SET domain containing 2, histone lysine methyltransferase",SETD2,29072,HIF-1; HYPB; HSPC069; KMT3A,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+large tumor suppressor kinase 1,LATS1,9113,WARTS; h-warts; LATS; STK9,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+large tumor suppressor kinase 2,LATS2,26524,KPM; LATSB; hLATS2,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+SET domain bifurcated histone lysine methyltransferase 1,SETDB1,9869,ESET; KG1T; KMT1E; TDRD21; H3-K9-HMTase4,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+methylthioadenosine phosphorylase,MTAP,4507,MSAP; c86fus; DMSA; DMSAase,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+cyclin dependent kinase inhibitor 2B,CDKN2B,1030,INK4B; MTS2; CDKN4B; p15INK4B,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+DEAD-box helicase 3 X-linked,DDX3X,1654,DBX; DDX3; HLP2; CAP-Rf; Helicase DBX; DEAD3,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+DEAD-box helicase 51,DDX51,317781,DDX51; DEAD5; DDX-51,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+unc-51 like autophagy activating kinase 2,ULK2,113451,ATG1B; FAKTS; KIAA0623,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+ryanodine receptor 2,RYR2,6262,ARVC2; CMH11; RYR-2; VTSIP,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+cilia and flagella associated protein 45,CFAP45,729966,C1orf194,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+Yes1 associated transcriptional regulator,YAP1,10413,YAP; YAP65; YAP2,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+WW domain containing transcription regulator 1,WWTR1,25937,TAZ; TAZ1,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+TEA domain transcription factor 1,TEAD1,7003,TEF-1,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+BRCA1 DNA repair associated,BRCA1,672,BRCC1; RNF53,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+BRCA2 DNA repair associated,BRCA2,675,FAD1; FACD; FANCD1,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+ATM serine/threonine kinase,ATM,472,ATA; TEL1; TELO1,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+RB transcriptional corepressor 1,RB1,5925,OSRC; pp110; p105-Rb,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+epidermal growth factor receptor,EGFR,1956,ERBB; HER1; ERBB1,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",PIK3CA,5290,PI3K; p110alpha,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+phosphatase and tensin homolog,PTEN,5728,MMAC1; TEP1,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+"NRAS proto-oncogene, GTPase",NRAS,4893,N-RAS; ALPS4,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+"KRAS proto-oncogene, GTPase",KRAS,3845,K-RAS; KRAS1,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+"MYC proto-oncogene, bHLH transcription factor",MYC,4609,c-Myc; bHLHe39,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+erb-b2 receptor tyrosine kinase 2,ERBB2,2064,HER2; NEU,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+DNA topoisomerase I,TOP1,7150,TOPI,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+"MET proto-oncogene, receptor tyrosine kinase",MET,4233,HGFR; RCCP2,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+vascular endothelial growth factor A,VEGFA,7422,"VPF, VEGF, MVCD1, L-VEGF",Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+AT-rich interaction domain containing 1A,ARID1A,8289,"ELD, B120, CSS2, OSA1, P270, hELD, BM029, MRD14, hOSA1, BAF250, C1orf4, BAF250a, SMARCF1",Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+AT-rich interaction domain 2,ARID2,196528,"CSS6, p200, BAF200, ZIPZAP, SMARCF3",Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4",SMARCA4,6597,"BRG1, CSS4, SNF2, SWI2, MRD16, RTPS2, BAF190, OTSC12, SNF2L4, SNF2LB, hSNF2b, BAF190A, SNF2-beta",Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+"SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily b member 1",SMARCB1,6598,"RDT, CSS3, INI1, SNF5, Snr1, BAF47, INI-1, MRD15, RTPS1, Sfh1p, hSNFS, SNF5L1, SWNTS1, PPP1R144",Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+enhancer of zeste 2 polycomb repressive complex 2 subunit,EZH2,2146,"WVS, ENX1, KMT6, WVS2, ENX-1, EZH2b, KMT6A",Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+lysine methyltransferase 2D,KMT2D,8085,MLL2; MLL4,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+serine/threonine kinase 11,STK11,6794,"PJS, LKB1, hLKB1",Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+CD274 molecule,CD274,29126,"B7-H, B7H1, PDL1, PD-L1, ADMIO5, hPD-L1, PDCD1L1, PDCD1LG1",Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+programmed cell death 1,PDCD1,5133,"PD1, PD-1, CD279, SLEB2, hPD-1, hPD-l, hSLE1, ADMIO4, AIMTBS",Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+cytotoxic T-lymphocyte associated protein 4,CTLA4,1493,"CD, GSE, GRD4, ALPS5, CD152, CTLA-4, IDDM12, CELIAC3",Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+Janus kinase 1,JAK1,3716,"JTK3, AIIDE, JAK1A, JAK1B",Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+Janus kinase 2,JAK2,3717,JTK10,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+cyclin D1,CCND1,595,PRAD1; BCL1,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+cyclin dependent kinase 4,CDK4,1019,PSK-J3,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+cyclin dependent kinase 6,CDK6,1021,PLSTIRE,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+calbindin 2,CALB2,794,"CR, CAL2, CAB29",Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+mesothelin,MSLN,10232,MPF; SMRP,Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
+WT1 transcription factor,WT1,7490,"GUD, AWT1, WAGR, WT-1, WT33, NPHS4, WIT-2",Homo sapiens,Normalized,Canonical NCBI Gene symbol retained; Gene ID validated from Phase 4 NCBI source.
