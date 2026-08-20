@@ -1,0 +1,15 @@
+MPM Multi-Omics Biomarker Knowledge Graph System Project Specification
+
+
+Malignant pleural mesothelioma (MPM) is a highly aggressive pleural tumor, and research on MPM involves extensive gene, protein, signaling pathway, drug, and disease information scattered 
+across various databases and scientific literature. Due to inconsistencies in data formats, discrepancies in entity naming, and fragmented relationship information among different data sources, 
+researchers face significant challenges in rapidly integrating and querying molecular mechanisms related to MPM.
+
+
+This project aims to develop a multi-omics biomarker knowledge graph system dedicated to MPM research. By integrating diverse biomedical data types—including genes, proteins, pathways, drugs, 
+diseases, and publications—the system establishes a unified data model and an interconnected network of biological entities. Leveraging standardized database information and evidence from scientific 
+literature, the system builds a reliable data foundation and utilizes Neo4j, a graph database, to store, query, and visualize complex biomedical relationships.
+
+
+The final system offers functionalities such as entity search, relationship exploration, multi-hop path queries, literature evidence retrieval, and closed-loop analysis of drug-target-disease 
+associations. It provides robust data support for MPM-related biomarker research, discovery of potential therapeutic targets, and subsequent AI-enhanced analytical applications.
