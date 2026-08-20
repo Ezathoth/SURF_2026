@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+
+
+# Virtual Environment
+.venv/
+venv/
+
+
+# IDE
+.idea/
+
+
+# Streamlit
+.streamlit/
+
+
+# Environment variables
+.env
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+# Logs
+*.log
+
+
+# Neo4j database files
+*.db
