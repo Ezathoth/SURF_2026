@@ -1,3 +1,10 @@
+"""Cypher query definitions for the MPM Knowledge Graph.
+
+Security note: user-controlled values are passed as Cypher parameters rather
+than concatenated into query strings. Multi-hop traversal is deliberately
+restricted to 1-3 hops to bound query cost.
+"""
+
 SEARCH_ENTITY_QUERY = """
 MATCH (n)
 WHERE

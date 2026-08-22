@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import requests
 from streamlit_agraph import agraph, Node, Edge, Config
@@ -100,7 +101,41 @@ ENTITY_COLOR = {
 # Backend API
 # ==========================================
 
-API_BASE_URL = "http://127.0.0.1:8000"
+API_BASE_URL = os.getenv("MPM_API_BASE_URL", "http://127.0.0.1:8000")
+API_KEY = os.getenv("MPM_API_KEY", "")
+
+
+def api_headers():
+    """Return authentication headers for backend API requests."""
+    if not API_KEY:
+        return {}
+    return {"X-API-Key": API_KEY}
+
+
+
+def validate_text_input(value, field_name, max_length=100):
+    value = (value or "").strip()
+    if not value:
+        st.warning(f"{field_name} cannot be empty.")
+        return None
+    if len(value) > max_length:
+        st.warning(f"{field_name} exceeds the maximum length of {max_length} characters.")
+        return None
+    return value
+
+
+def api_get(endpoint, params=None):
+    """Centralise authenticated API requests and basic client-side validation."""
+    try:
+        return requests.get(
+            f"{API_BASE_URL}{endpoint}",
+            params=params or {},
+            headers=api_headers(),
+            timeout=15
+        )
+    except requests.RequestException as exc:
+        st.error(f"Unable to reach backend API: {exc}")
+        return None
 
 
 
@@ -184,18 +219,10 @@ if module == "1. Entity Search":
     if st.button("Search Entity"):
 
 
-        res = requests.get(
-
-            f"{API_BASE_URL}/api/entity/search",
-
-            params={
-                "keyword": keyword
-            }
-
-        )
+        res = api_get("/api/entity/search", {"keyword": keyword})
 
 
-        if res.status_code == 200:
+        if res is not None and res.status_code == 200:
 
 
             data = res.json().get(
@@ -260,18 +287,10 @@ elif module == "2. Relationship Exploration":
     ):
 
 
-        res = requests.get(
-
-            f"{API_BASE_URL}/api/relationship",
-
-            params={
-                "keyword": keyword
-            }
-
-        )
+        res = api_get("/api/relationship", {"keyword": keyword})
 
 
-        if res.status_code == 200:
+        if res is not None and res.status_code == 200:
 
 
             graph = res.json().get(
@@ -446,23 +465,11 @@ elif module == "3. Multi-hop Path Query":
     ):
 
 
-        res = requests.get(
-
-            f"{API_BASE_URL}/api/path/multihop",
-
-            params={
-
-                "start": start,
-
-                "end": end
-
-            }
-
-        )
+        res = api_get("/api/path/multihop", {"start": start, "end": end})
 
 
 
-        if res.status_code == 200:
+        if res is not None and res.status_code == 200:
 
 
             graph = res.json().get(
@@ -704,20 +711,10 @@ elif module == "4. Supporting Literature Evidence":
     ):
 
 
-        res = requests.get(
-
-            f"{API_BASE_URL}/api/publication",
-
-            params={
-
-                "keyword": keyword
-
-            }
-
-        )
+        res = api_get("/api/publication", {"keyword": keyword})
 
 
-        if res.status_code == 200:
+        if res is not None and res.status_code == 200:
 
 
             pubs = res.json().get(
@@ -823,21 +820,11 @@ elif module == "5. Drug - Target - Disease Chain":
     ):
 
 
-        res = requests.get(
-
-            f"{API_BASE_URL}/api/drug-target",
-
-            params={
-
-                "keyword": keyword
-
-            }
-
-        )
+        res = api_get("/api/drug-target", {"keyword": keyword})
 
 
 
-        if res.status_code == 200:
+        if res is not None and res.status_code == 200:
 
 
             drugs = res.json().get(

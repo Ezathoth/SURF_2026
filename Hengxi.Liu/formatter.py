@@ -1,3 +1,5 @@
+"""Transform Neo4j query records into frontend graph structures."""
+
 # ==========================================
 # Phase 8.7: Query Result Formatter
 # ==========================================

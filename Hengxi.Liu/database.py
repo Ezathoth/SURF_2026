@@ -1,13 +1,19 @@
+import os
 from neo4j import GraphDatabase
 
-URI = "bolt://localhost:7687"
-USERNAME = "neo4j"
-PASSWORD = "YOUR_NEO4J_PASSWORD"
+# Connection settings are read from environment variables rather than hard-coded
+# credentials. Defaults are local-only and do not include a password.
+URI = os.getenv("NEO4J_URI", "bolt://127.0.0.1:7687")
+USERNAME = os.getenv("NEO4J_USERNAME", "neo4j")
+PASSWORD = os.getenv("NEO4J_PASSWORD", "")
 
 
 class Neo4jDatabase:
-
     def __init__(self, uri, username, password):
+        if not password:
+            raise RuntimeError(
+                "NEO4J_PASSWORD is not set. Configure it as an environment variable."
+            )
         self.driver = GraphDatabase.driver(
             uri,
             auth=(username, password)
@@ -26,22 +32,14 @@ class Neo4jDatabase:
 
 
 if __name__ == "__main__":
-
-    db = Neo4jDatabase(
-        URI,
-        USERNAME,
-        PASSWORD
-    )
-
+    db = Neo4jDatabase(URI, USERNAME, PASSWORD)
     try:
         result = db.execute_query(
             """
             RETURN 'MPM Knowledge Graph' AS System
             """
         )
-
         print("System:", result[0]["System"])
         print("Status: Connection successful")
-
     finally:
         db.close()
