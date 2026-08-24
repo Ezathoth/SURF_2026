@@ -103,12 +103,12 @@ ENTITY_COLOR = {
 
 API_BASE_URL = os.getenv("MPM_API_BASE_URL", "http://127.0.0.1:8000")
 API_KEY = os.getenv("MPM_API_KEY", "")
+if not API_KEY:
+    raise RuntimeError("MPM_API_KEY is not set. Start the system with the provided startup script.")
 
 
 def api_headers():
     """Return authentication headers for backend API requests."""
-    if not API_KEY:
-        return {}
     return {"X-API-Key": API_KEY}
 
 

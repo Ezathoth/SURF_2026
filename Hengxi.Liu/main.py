@@ -30,7 +30,7 @@ logger = logging.getLogger("mpm_api")
 app = FastAPI(
     title="MPM Knowledge Graph API",
     description="Backend API services for Malignant Pleural Mesothelioma Knowledge Graph System",
-    version="1.1.0-secure"
+    version="1.2.0-secure"
 )
 
 # Local development only: do not expose the API to arbitrary browser origins.
